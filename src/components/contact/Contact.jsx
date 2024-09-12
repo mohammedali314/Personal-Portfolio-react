@@ -11,14 +11,14 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     
-    // Send email using EmailJS
+    
     emailjs.sendForm('service_t4p291a', 'template_0gjgs4s', form.current, 'HmeW-CUUDymQLoOeQ')
       .then((result) => {
-          console.log(result.text); // Log success message
-          e.target.reset(); // Reset form after successful submission
+          console.log(result.text);
+          e.target.reset(); 
       }, (error) => {
-          console.log(error.text); // Log error message
-      });
+          console.log(error.text);
+        });
   };
 
   return (
@@ -45,7 +45,7 @@ const Contact = () => {
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon' />
             <h4>WhatsApp</h4>
-            <h5>+92 332 5122666</h5>
+            <h5>+92 303 7313471</h5>
             <a href="https://wa.me/+92332512266" target='_blank' rel="noopener noreferrer">Send a message</a>
           </article>
         </div>
