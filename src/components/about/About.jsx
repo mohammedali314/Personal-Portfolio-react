@@ -1,6 +1,10 @@
 import React from 'react'
 import './about.css'
+<<<<<<< HEAD
 import ME from '../../assets/About.jpeg'
+=======
+import ME from '../../assets/pr.jpeg'
+>>>>>>> 12d5b70 (Updated project with new changes)
 import {FaGraduationCap} from 'react-icons/fa'
 import {FaUniversity} from 'react-icons/fa'
 import {BiCodeAlt} from 'react-icons/bi'
@@ -13,7 +17,11 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
+<<<<<<< HEAD
             <img src={ME} alt="About Image" />
+=======
+            <img className='aboutImage' src={ME} alt="About Image" />
+>>>>>>> 12d5b70 (Updated project with new changes)
           </div>
         </div>
         

@@ -70,6 +70,14 @@
   color: var(--color-light);
 }
 
+<<<<<<< HEAD
+=======
+.aboutImage{
+  height: 300px;
+  width: 300px;
+}
+
+>>>>>>> 12d5b70 (Updated project with new changes)
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 
 @media  screen and (max-width: 1024px) {
