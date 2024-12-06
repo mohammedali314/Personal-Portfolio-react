@@ -1,11 +1,8 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-<<<<<<< HEAD
-import ME from '../../assets/ME-.jpg'
-=======
+// import ME from '../../assets/ME-.jpg'
 import ME from '../../assets/Profile.jpeg'
->>>>>>> 12d5b70 (Updated project with new changes)
 import HeaderSocials from './HeaderSocials'
 
 const Header = () => {
