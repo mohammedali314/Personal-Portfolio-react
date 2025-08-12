@@ -31,8 +31,8 @@ const Contact = () => {
           <article className="contact__option">
             <FiMail className='contact__option-icon' />
             <h4>Email</h4>
-            <h5>mohammedali31455@gmail.com</h5>
-            <a href="mailto:mohammedali31455@gmail.com" target='_blank' rel="noopener noreferrer">Send a message</a>
+            <h5>webdevelops417@gmail.com</h5>
+            <a href="mailto:webdevelops417@gmail.com" target='_blank' rel="noopener noreferrer">Send a message</a>
           </article>
 
           <article className="contact__option">
@@ -45,8 +45,8 @@ const Contact = () => {
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon' />
             <h4>WhatsApp</h4>
-            <h5>+92 303 7313471</h5>
-            <a href="https://wa.me/+92332512266" target='_blank' rel="noopener noreferrer">Send a message</a>
+            <h5>+92 332 5122666</h5>
+            <a href="https://wa.me/+923325122666" target='_blank' rel="noopener noreferrer">Send a message</a>
           </article>
         </div>
 
